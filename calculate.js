@@ -1,9 +1,11 @@
 const calculate = (first = 0, second = 0) => {
+  const firstNumber = Number(first)
+  const secondNumber = Number(second)
   return {
-    soma: `Soma: ${first+second}`,
-    sub:`Subtração: ${first-second}`,
-    mult:`Multiplicação: ${first*second}`,
-    div:`Divisão: ${first/second}`
+    soma: `Soma: ${firstNumber+secondNumber}`,
+    sub:`Subtração: ${firstNumber-secondNumber}`,
+    mult:`Multiplicação: ${firstNumber*secondNumber}`,
+    div:`Divisão: ${firstNumber/secondNumber}`
   }
 }
 

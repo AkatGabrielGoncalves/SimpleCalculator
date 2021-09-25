@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 
 rl.question('Escreva o primeiro número: ', (first) => {
   rl.question('Escreva o segundo número: ', (second) => {
-    const results = calculate(Number(first), Number(second))
+    const results = calculate(first, second)
     Object.values(results).forEach((result) => {
       console.log(result)
     })
