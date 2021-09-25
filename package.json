@@ -8,9 +8,6 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {
-    "mathjs": "^9.5.0"
-  },
   "devDependencies": {
     "jest": "^27.2.1"
   }
